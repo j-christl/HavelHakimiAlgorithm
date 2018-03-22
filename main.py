@@ -52,7 +52,7 @@ def havel_hakimi(seq):
     print(seq)
 
     # recursive call
-    havel_hakimi(seq)
+    return havel_hakimi(seq)
 
 
 if __name__ == "__main__":
